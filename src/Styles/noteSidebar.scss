@@ -1,0 +1,14 @@
+.header-div{
+    width: 200px;
+    flex-shrink: 0;
+    border-right: 1px solid black;
+    margin-right: 100px;
+    background-color: white;
+
+    h1{
+        background-color: rgb(15, 136, 235);
+        margin-right: 5px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+}

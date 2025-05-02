@@ -1,0 +1,93 @@
+.notePage{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.note-input{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 600px;
+    padding: 10px;
+    margin-top: 50px;
+    border: 1px solid rgb(231, 228, 228);
+    box-shadow: 0 0 12px rgb(77, 76, 76);
+    border-radius: 15px;
+    gap: 10px;
+}
+
+#note-title{
+    background: none;
+    width: 200px;
+    height: 20px;
+    border:none;
+
+    &::placeholder{
+        color: white;
+        font-size: 14px;
+    }
+}
+
+#note-text{
+    background: none;
+    border: none;
+
+    &::placeholder{
+        color: white;
+        font-size: 14px;
+    }
+}
+
+#note-title:focus, #note-text:focus{
+    border: none;
+    outline: none;
+}
+
+.add-btn{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 450px;
+    border-radius: 15px;
+    border: 1px solid rgb(231, 228, 228);
+    box-shadow: 0 0 12px rgb(77, 76, 76);
+    cursor: pointer;
+
+    &:hover{
+        background-color: rgb(143, 169, 190);
+    }
+}
+
+.note-header{
+    display: flex;
+    margin-top: 10px;
+
+    h3{
+        font-size: 16px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    img{
+        width: 40px;
+        height: 40px;
+    }
+}
+
+
+.note {
+    width: 200px;              
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
